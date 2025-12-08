@@ -44,94 +44,13 @@ Meest                 | ✅                                       | ✅         
 
 ### 1) Ємність і частка цінових сегментів по кількості доступних в продажу SKU
 
+| Ціновий сегмент   | EpicentrK SKU | EpicentrK % | MauDau SKU | MauDau % | Rozetka SKU | Rozetka % |
+|-------------------|---------------|-------------|------------|----------|-------------|-----------|
+| Дешеві            | 3614          | 27.5        | 4199       | 32.0     | 5327        | 40.5      |
+| Нижче середні     | 4187          | 32.0        | 3565       | 27.2     | 5343        | 40.8      |
+| Вище середні      | 4738          | 36.1        | 3010       | 22.9     | 5388        | 41.0      |
+| Дорогі            | 6328          | 48.4        | 2186       | 16.7     | 4570        | 34.9      |
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead tr th {
-        text-align: center;
-    }
-
-    .dataframe thead tr:last-of-type th {
-        text-align: right;
-    }
-</style>
-
-<table border="3" class="dataframe">
-  <thead>
-    <tr>
-      <th> </th>
-      <th colspan="2" halign="left">EpicentrK</th>
-      <th colspan="2" halign="left">MauDau</th>
-      <th colspan="2" halign="left">Rozetka</th>
-    </tr>
-    <tr>
-      <th></th>
-      <th>SKU</th>
-      <th>Частка (%)</th>
-      <th>SKU</th>
-      <th>Частка (%)</th>
-      <th>SKU</th>
-      <th>Частка (%)</th>
-    </tr>
-    <tr>
-      <th>Ціновий сегмент</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>Дешеві</th>
-      <td>3614</td>
-      <td>27.5</td>
-      <td>4199</td>
-      <td>32.0</td>
-      <td>5327</td>
-      <td>40.5</td>
-    </tr>
-    <tr>
-      <th>Нижче середні</th>
-      <td>4187</td>
-      <td>32.0</td>
-      <td>3565</td>
-      <td>27.2</td>
-      <td>5343</td>
-      <td>40.8</td>
-    </tr>
-    <tr>
-      <th>Вище середні</th>
-      <td>4738</td>
-      <td>36.1</td>
-      <td>3010</td>
-      <td>22.9</td>
-      <td>5388</td>
-      <td>41.0</td>
-    </tr>
-    <tr>
-      <th>Дорогі</th>
-      <td>6328</td>
-      <td>48.4</td>
-      <td>2186</td>
-      <td>16.7</td>
-      <td>4570</td>
-      <td>34.9</td>
-    </tr>
-  </tbody>
-</table>
-</div>
 
 ### 2) Крива цінової сходинки кожного майданчика
 ![загальна крива цінової сходинки](image-2.png)
@@ -152,120 +71,18 @@ Meest                 | ✅                                       | ✅         
 
 ![Промо-покриття по майданчиках](image-3.png)
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+| Marketplace | Категорія         | Позицій з промо | Всього позицій | Середня знижка | Промо-покриття на маркетплейсі % | Загальне промо-покриття % |
+|-------------|-------------------|-----------------|----------------|----------------|----------------------------------|----------------------------|
+| Epicentr    | Алкогольні напої  | 1806            | 4583           | 163.1          | 39.4                             | 4.8                        |
+| Epicentr    | Краса і догляд    | 2823            | 6556           | 247.9          | 43.1                             | 7.6                        |
+| Epicentr    | Побутова хімія     | 4082            | 7728           | 167.1          | 52.8                             | 10.9                       |
+| MauDau      | Алкогольні напої  | 3596            | 6576           | 184.5          | 54.7                             | 9.6                        |
+| MauDau      | Краса і догляд    | 2401            | 3216           | 183.8          | 74.7                             | 6.4                        |
+| MauDau      | Побутова хімія     | 2019            | 3168           | 114.0          | 63.7                             | 5.4                        |
+| Rozetka     | Алкогольні напої  | 6090            | 6090           | 327.7          | 100.0                            | 16.3                       |
+| Rozetka     | Краса і догляд    | 5427            | 5427           | 117.2          | 100.0                            | 14.5                       |
+| Rozetka     | Побутова хімія     | 9111            | 9111           | 60.5           | 100.0                            | 24.4                       |
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th></th>
-      <th>Позицій з промо</th>
-      <th>Всього позицій</th>
-      <th>Середня знижка</th>
-      <th>Промо-покриття на маркетплейсі, %</th>
-      <th>Загальне промо-покриття, %</th>
-    </tr>
-    <tr>
-      <th>Marketplace</th>
-      <th>Категорія</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th rowspan="3" valign="top">Epicentr</th>
-      <th>Алкогольні напої</th>
-      <td>1806</td>
-      <td>4583</td>
-      <td>163.1</td>
-      <td>39.4</td>
-      <td>4.8</td>
-    </tr>
-    <tr>
-      <th>Краса і догляд</th>
-      <td>2823</td>
-      <td>6556</td>
-      <td>247.9</td>
-      <td>43.1</td>
-      <td>7.6</td>
-    </tr>
-    <tr>
-      <th>Побутова хімія</th>
-      <td>4082</td>
-      <td>7728</td>
-      <td>167.1</td>
-      <td>52.8</td>
-      <td>10.9</td>
-    </tr>
-    <tr>
-      <th rowspan="3" valign="top">MauDau</th>
-      <th>Алкогольні напої</th>
-      <td>3596</td>
-      <td>6576</td>
-      <td>184.5</td>
-      <td>54.7</td>
-      <td>9.6</td>
-    </tr>
-    <tr>
-      <th>Краса і догляд</th>
-      <td>2401</td>
-      <td>3216</td>
-      <td>183.8</td>
-      <td>74.7</td>
-      <td>6.4</td>
-    </tr>
-    <tr>
-      <th>Побутова хімія</th>
-      <td>2019</td>
-      <td>3168</td>
-      <td>114.0</td>
-      <td>63.7</td>
-      <td>5.4</td>
-    </tr>
-    <tr>
-      <th rowspan="3" valign="top">Rozetka</th>
-      <th>Алкогольні напої</th>
-      <td>6090</td>
-      <td>6090</td>
-      <td>327.7</td>
-      <td>100.0</td>
-      <td>16.3</td>
-    </tr>
-    <tr>
-      <th>Краса і догляд</th>
-      <td>5427</td>
-      <td>5427</td>
-      <td>117.2</td>
-      <td>100.0</td>
-      <td>14.5</td>
-    </tr>
-    <tr>
-      <th>Побутова хімія</th>
-      <td>9111</td>
-      <td>9111</td>
-      <td>60.5</td>
-      <td>100.0</td>
-      <td>24.4</td>
-    </tr>
-  </tbody>
-</table>
-</div>
 
 - EpicentrK надає найменше знижок у відносних показниках до свого наявного асортименту.
 - MauDau і Rozetka більше половини своїх товарів (з вибраних категорій) надають під знижки, що може говорити про моніторинг цін один в одного та схожу цінову політику з партнерами/постачальниками.

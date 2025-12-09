@@ -196,5 +196,5 @@ MauDau відчутно дешевший в усіх категоріях, ос�
 У ціновому з'язку Maudau і Rozetka спостерігається "парадокс Сімпсона". Коли загальні дані відображають відмінну ситуацію від сегментованих/детальних даних.
 
 # Dashboard
-[pbix](https://vscode.dev/github/vladerfei-da/testmaudau/blob/master/code/Small%20dashboard%20PowerBI.pbix)
+[pbix](<code/Small dashboard PowerBI.pbix>)
 ![PowerBI](image-4.png)
